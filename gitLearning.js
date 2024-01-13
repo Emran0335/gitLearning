@@ -9,6 +9,10 @@ Ans: Git is a version control system that allows you to track changes to your co
 Github is a cloud-based platform that allows you to store and manage your code on the cloud. It is a popular tool for version control in software development. It allows you to store and manage changes to your code over time. 
 4. What is commit?
 Ans: Commit is a record of changes made to your code. It is used to take control of the file or folder to git after tracking/staging.
+5. What is the use of key q of the keyboard using terminal?
+Ans: This key is used to quit the terminal(End) situation.
+6. What is last-in first-out?
+Ans: In git which files or folders are commited/saved last will appear first in the terminal.
 */
 /*
 1. .git 
@@ -24,6 +28,7 @@ Ans: This command is used to list all the configuration settings for git.
 Ans: This command is used to set the name of the user for git. 
 3. git config --global user.email "emranhossain0335@gmail.com"
 Ans: This command is used to set the email address of the user for git. 
+
 */
 
 /*
@@ -42,4 +47,17 @@ Ans: This command is used to stage or track the current directory or file. But i
 Ans: This command is used to check the status of the git repository. It shows the current state of the repository. It shows the status of the files and folders. It shows the staged files and folders(new files and folder). It also shows the unstaged/untracked files and folders.
 7. git commit -m "first commit"
 Ans: This command is used to commit/save the staged files and folders. It is used to take control of the file or folder by git after tracking/staging. 
+8. git log
+Ans: This command is used to show the history of the changes(commits) made to the files and folders.
+9. git log --oneline
+Ans: This command is used to show the history of the changes(commits) made to the files and folders in a more readable format e.i. in one line.
+10. vi readme.md
+Ans: This command is used to edit the file.
+11. :wq
+Ans: This command is used to save the file and from insert mode to command mode
+12. i 
+Ans: This command is used to insert the text in the file using the terminal vi editor.
+13. esc
+Ans: This command is used to exit the vi editor. And then we can enter the command mode. After that, we have to use :wq to save the file. 
+
 */
