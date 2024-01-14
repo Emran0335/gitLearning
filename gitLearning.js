@@ -100,5 +100,56 @@ Ans: To merge, we need to first create a branch from the main branch. Then, we n
 
 3. git branch -d branchName(dev/add-heading-text)
 Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
+*/
 
+/*
+1. git stash
+Ans: This command is used to stash the changes. It is used to temporarily store the changes. It is used to save the changes before they are commited. So we can switch to the other branch as changes are stored or stash.
+2. git stash pop
+Ans: This command is used to pop the stash. It is used to restore the changes. It is used to get the changes back.
+3. git stash list
+Ans: This command is used to list the stash. It is used to show the stash.
+4. git stash clear
+Ans: This command is used to clear the stash. It is used to remove the stash.
+5. git stash show -p
+Ans: This command is used to show the stash. It is used to show the stash.
+6. git stash apply stashId
+Ans: This command is used to apply the stash. It is used to get the changes back.
+7. git stash drop stashId
+Ans: This command is used to drop the stash. It is used to remove the stash.
+8. git stash save -m "message"
+Ans: This command is used to save the stash. It is used to save the changes before they are commited. So we can switch to the other branch as changes are stored or stash.
+9. git rm --cached fileName
+Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation.
+10. git diff fileName
+Ans: This command is used to show the changes made to the file.
+
+*/
+
+/*
+** Pulling **
+1. What is pulling?
+Ans: Pulling is the process of fetching the changes from the remote repository and merging them into the local repository. It is used to synchronize the local repository with the remote repository.
+2. How to pull?
+Ans: To pull, we need to first create a branch from the main branch. Then, we need to make changes to the branch. Then, we need to merge the branch into the main branch.
+*/
+
+/*
+1. How is fetch?
+Ans: Fetch is the process of fetching the changes from the remote repository. It is used to synchronize the local repository with the remote repository.
+2. How is pull?
+Ans: Pull is the process of fetching the changes from the remote repository and merging them into the local repository. It is used to synchronize the local repository with the remote repository.
+3. What is the difference between fetch and pull?
+Ans: Fetch is the process of fetching the changes from the remote repository. It is used to synchronize the local repository with the remote repository.
+*/
+
+/*
+1. What is gitignore file?
+Ans: Gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+2. What is the use of gitignore file?
+Ans: Gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+3. What is the difference between .gitignore and .gitattributes?
+Ans: .gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+4. What is the use of .gitattributes file?
+Ans: .gitattributes file is a file that is used to specify the file attributes for a git repository.
 */
