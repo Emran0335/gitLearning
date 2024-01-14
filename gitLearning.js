@@ -59,5 +59,9 @@ Ans: This command is used to save the file and from insert mode to command mode
 Ans: This command is used to insert the text in the file using the terminal vi editor.
 13. esc
 Ans: This command is used to exit the vi editor. And then we can enter the command mode. After that, we have to use :wq to save the file. 
+14. git reset --hard commitId(d14e8b0)
+Ans: This command is used to reset the file to the specified commit. It is used to revert back to the previous version of the file.
+15. git reflog
+Ans: This command is used to show the reflog(all the history of commits) of the git repository. It shows the history of the commits made to the files and folders.
 
 */
