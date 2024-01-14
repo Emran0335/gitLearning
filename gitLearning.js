@@ -137,3 +137,14 @@ Ans: Pull is the process of fetching the changes from the remote repository and 
 3. What is the difference between fetch and pull?
 Ans: Fetch is the process of fetching the changes from the remote repository. It is used to synchronize the local repository with the remote repository.
 */
+
+/*
+1. What is gitignore file?
+Ans: Gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+2. What is the use of gitignore file?
+Ans: Gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+3. What is the difference between .gitignore and .gitattributes?
+Ans: .gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
+4. What is the use of .gitattributes file?
+Ans: .gitattributes file is a file that is used to specify the file attributes for a git repository.
+*/
