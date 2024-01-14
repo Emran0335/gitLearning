@@ -157,4 +157,6 @@ Ans: .gitattributes file is a file that is used to specify the file attributes f
 Ans: This command is used to push the file to the remote repository. It will automatically set the name of the branch into the repository too.
 2. git push origin -u origin main
 Ans: This command is used to push the branch to the remote repository.
+3. git pull
+Ans: This command is used to pull the changes from the remote repository.
 */
