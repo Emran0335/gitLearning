@@ -104,7 +104,7 @@ Ans: This command is used to delete the branch. If we use small(d) and there are
 
 /*
 1. git stash
-Ans: This command is used to stash the changes. It is used to temporarily store the changes. It is used to save the changes before they are commited.
+Ans: This command is used to stash the changes. It is used to temporarily store the changes. It is used to save the changes before they are commited. So we can switch to the other branch as changes are stored or stash.
 2. git stash pop
 Ans: This command is used to pop the stash. It is used to restore the changes. It is used to get the changes back.
 3. git stash list
