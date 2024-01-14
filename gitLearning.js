@@ -152,4 +152,9 @@ Ans: Gitignore file is a file that is used to ignore certain files or folders in
 Ans: .gitignore file is a file that is used to ignore certain files or folders in a git repository. It is used to prevent certain files or folders from being tracked by git. It is used to prevent certain files or folders from being committed to the git repository.
 4. What is the use of .gitattributes file?
 Ans: .gitattributes file is a file that is used to specify the file attributes for a git repository.
+
+1. git push origin fileName
+Ans: This command is used to push the file to the remote repository. It will automatically set the name of the branch into the repository too.
+2. git push origin -u origin main
+Ans: This command is used to push the branch to the remote repository.
 */
