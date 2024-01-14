@@ -64,7 +64,6 @@ Ans: This command is used to reset the file to the specified commit. It is used 
 15. git reflog
 Ans: This command is used to show the reflog(all the history of commits) of the git repository. It shows the history of the commits made to the files and folders.
 16. git rm file's name(help.md)
-<<<<<<< HEAD
 Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation. But we can move to the previos commits(using commitId) and there we will find the deleted file.
 */
 
