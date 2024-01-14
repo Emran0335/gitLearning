@@ -70,8 +70,9 @@ Ans: This command is used to remove the file from the git repository. This parti
 /*
 ** Branching **
 1. git branch --list
-Ans: This command is used to show the list of all the branches.
+Ans: This command is used to show the list of all the branches. Star sign indicates where I am.
 2. git branch branchName(feature/dashboard)
-Ans: This command is used to create a new branch. But we have to follow rules to name the branch such as bugfix/readme, feature/dashboard, etc. Branches will always be created from thier parent branch.
-
+Ans: This command is used to create a new branch. But we have to follow rules to name the branch such as bugfix/readme, feature/dashboard, etc. Branches will always be created from thier parent branch. 
+3. git switch branchName(dev/add-heading-text)
+Ans: 
 */
