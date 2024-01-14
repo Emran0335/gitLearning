@@ -121,6 +121,9 @@ Ans: This command is used to drop the stash. It is used to remove the stash.
 Ans: This command is used to save the stash. It is used to save the changes before they are commited. So we can switch to the other branch as changes are stored or stash.
 9. git rm --cached fileName
 Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation.
+10. git diff fileName
+Ans: This command is used to show the changes made to the file.
+
 */
 
 /*
