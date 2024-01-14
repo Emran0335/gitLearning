@@ -75,7 +75,16 @@ Ans: This command is used to show the list of all the branches. Star sign indica
 2. git branch branchName(feature/dashboard)
 Ans: This command is used to create a new branch. But we have to follow rules to name the branch such as bugfix/readme, feature/dashboard, etc. Branches will always be created from thier parent branch. 
 3. git switch branchName(dev/add-heading-text)
-
+Ans: This command is used to switch to the branch.
+4. git checkout -b branchName(dev/add-heading-text)
+Ans: This command is used to create and switch to the branch.
+5. git checkout -b branchName(dev/add-heading-text)
+Ans: This command is used to create and switch to the branch.
+6. git branch -d branchName(dev/add-heading-text)
+Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
+7. git branch -D branchName(dev/add-heading-text)
+Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
+8. git checkout -b branchName(dev/add-heading-text)
 Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation.
 */
 
