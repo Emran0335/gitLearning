@@ -100,5 +100,11 @@ Ans: To merge, we need to first create a branch from the main branch. Then, we n
 
 3. git branch -d branchName(dev/add-heading-text)
 Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
+*/
 
+/*
+1. git push origin fileName
+Ans: This command is used to push the file to the remote repository. It will automatically set the name of the branch into the repository too.
+2. git push origin -u origin main
+Ans: This command is used to push the branch to the remote repository.
 */
