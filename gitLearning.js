@@ -85,6 +85,9 @@ Ans: This command is used to delete the branch. If we use small(d) and there are
 Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
 8. git checkout -b branchName(dev/add-heading-text)
 Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation.
+9. git branch -m branchName(feature/add-heading-text)
+Ans: This command is used to rename the branch.
+
 */
 
 /*
