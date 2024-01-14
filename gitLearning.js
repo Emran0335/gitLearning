@@ -111,6 +111,14 @@ Ans: This command is used to pop the stash. It is used to restore the changes. I
 Ans: This command is used to list the stash. It is used to show the stash.
 4. git stash clear
 Ans: This command is used to clear the stash. It is used to remove the stash.
+5. git stash show -p
+Ans: This command is used to show the stash. It is used to show the stash.
+6. git stash apply stashId
+Ans: This command is used to apply the stash. It is used to get the changes back.
+7. git stash drop stashId
+Ans: This command is used to drop the stash. It is used to remove the stash.
+8. git stash save -m "message"
+Ans: This command is used to save the stash. It is used to save the changes before they are commited. So we can switch to the other branch as changes are stored or stash.
 */
 
 /*
@@ -121,3 +129,11 @@ Ans: Pulling is the process of fetching the changes from the remote repository a
 Ans: To pull, we need to first create a branch from the main branch. Then, we need to make changes to the branch. Then, we need to merge the branch into the main branch.
 */
 
+/*
+1. How is fetch?
+Ans: Fetch is the process of fetching the changes from the remote repository. It is used to synchronize the local repository with the remote repository.
+2. How is pull?
+Ans: Pull is the process of fetching the changes from the remote repository and merging them into the local repository. It is used to synchronize the local repository with the remote repository.
+3. What is the difference between fetch and pull?
+Ans: Fetch is the process of fetching the changes from the remote repository. It is used to synchronize the local repository with the remote repository.
+*/
