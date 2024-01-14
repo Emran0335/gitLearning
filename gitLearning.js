@@ -86,4 +86,8 @@ Ans: Merging is the process of combining two or more branches of a repository in
 
 2. How to merge?
 Ans: To merge, we need to first create a branch from the main branch. Then, we need to make changes to the branch. Then, we need to merge the branch into the main branch.
+
+3. git branch -d branchName(dev/add-heading-text)
+Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
+
 */
