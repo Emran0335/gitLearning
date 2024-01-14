@@ -100,5 +100,24 @@ Ans: To merge, we need to first create a branch from the main branch. Then, we n
 
 3. git branch -d branchName(dev/add-heading-text)
 Ans: This command is used to delete the branch. If we use small(d) and there are some unstaged/commited something, then the branch will never be deleted. But if we use capital(D), then it will delete all.
-
 */
+
+/*
+1. git stash
+Ans: This command is used to stash the changes. It is used to temporarily store the changes. It is used to save the changes before they are commited.
+2. git stash pop
+Ans: This command is used to pop the stash. It is used to restore the changes. It is used to get the changes back.
+3. git stash list
+Ans: This command is used to list the stash. It is used to show the stash.
+4. git stash clear
+Ans: This command is used to clear the stash. It is used to remove the stash.
+*/
+
+/*
+** Pulling **
+1. What is pulling?
+Ans: Pulling is the process of fetching the changes from the remote repository and merging them into the local repository. It is used to synchronize the local repository with the remote repository.
+2. How to pull?
+Ans: To pull, we need to first create a branch from the main branch. Then, we need to make changes to the branch. Then, we need to merge the branch into the main branch.
+*/
+
