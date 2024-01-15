@@ -1,14 +1,14 @@
 /*
 Git is a version control system/tool that allows you to track changes to your code over time. 
 1. What is verson control?
-Ans: Version control is the process of tracking changes to your code of the file or folder's file over time. It allows you to revert back to previous versions of your code if necessary. For example, if we write somethig in a file and leave it to anybody, another person will aslo write something in this file. Then the   version of will be changed and it will get second version as something is write on the file. So we can revert back to the first version of the file if we need to. 
+Ans: Version control is the process of tracking changes to your code of the file or folder's file over time. It allows you to revert back to previous versions of your code if necessary. For example, if we write somethig in a file and leave it to anybody, another person will aslo write something in this file. Then the   version of the file will be changed and it will get second version as something is written on the file. So we can revert back to the first version of the file if we need. 
 2. What is git?
 Ans: Git is a version control system that allows you to track changes to your code over time. It is a popular tool for version control in software development. It allows you to store and manage changes to your code over time. 
 3. What is the difference between git and github?
 Ans: Git is a version control system that allows you to track changes to your code over time. It is a popular tool for version control in software development. It allows you to store and manage changes to your code over time. 
 Github is a cloud-based platform that allows you to store and manage your code on the cloud. It is a popular tool for version control in software development. It allows you to store and manage changes to your code over time. 
 4. What is commit?
-Ans: Commit is a record of changes made to your code. It is used to take control of the file or folder to git after tracking/staging.
+Ans: Commit is a record of changes made to your code. It is used to take control of the file or folder by git after tracking/staging.
 5. What is the use of key q of the keyboard using terminal?
 Ans: This key is used to quit the terminal(End) situation.
 6. What is last-in first-out?
@@ -65,6 +65,8 @@ Ans: This command is used to reset the file to the specified commit. It is used 
 Ans: This command is used to show the reflog(all the history of commits) of the git repository. It shows the history of the commits made to the files and folders.
 16. git rm file's name(help.md)
 Ans: This command is used to remove the file from the git repository. This particular file is removed from the working directory but git still does not know that the file is removed from its local directory. So, commit is needed in this situation. But we can move to the previos commits(using commitId) and there we will find the deleted file.
+17. git config --global --edit
+Ans: This command is used to edit the configuration settings for git.
 */
 
 /*
