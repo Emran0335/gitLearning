@@ -1,7 +1,7 @@
 /*
 Git is a version control system/tool that allows you to track changes to your code over time. 
 1. What is verson control?
-Ans: Version control is the process of tracking changes to your code of the file or folder's file over time. It allows you to revert back to previous versions of your code if necessary. For example, if we write somethig in a file and leave it to anybody, another person will aslo write something in this file. Then the   version of the file will be changed and it will get second version as something is written on the file. So we can revert back to the first version of the file if we need. 
+Ans: Version control is the process of tracking changes to your code of the file or folder's file over time. It allows you to revert back to previous versions of your code if necessary. For example, if we write somethig in a file and leave it to anybody, another person will aslo write something in this file. Then the version of the file will be changed and it will get second version as something is written on the file. So we can revert back to the first version of the file if we need. 
 2. What is git?
 Ans: Git is a version control system that allows you to track changes to your code over time. It is a popular tool for version control in software development. It allows you to store and manage changes to your code over time. 
 3. What is the difference between git and github?
